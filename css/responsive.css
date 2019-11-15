@@ -9,17 +9,43 @@
     .topbar-wrapper{
         display: none;
     }
+    
+    .main-navigation,.main-header{
+        display: none;
+    }
+    
+    footer, .footer-body p{
+        text-align: center;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {}
 
 /*  Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    .mobile-menu{
+        display: none;
+    }
+    
+     .main-navigation,.main-header{
+        display: block;
+    }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .topbar-wrapper{
         display: block;
+    }
+    
+   
+    
+    footer{
+        text-align: left;
+        
+    }
+    .footer-body p{
+        text-align: right;
     }
 }
 
