@@ -245,6 +245,14 @@ button.onpoint-btn-1:hover{
 .menu-mobile ul {
     border-top: 1px solid #d9d9d9;
 }
+
+.close-menu-btn{
+    display: none;
+}
+
+.display-btn{
+    display: block;
+}
 /*End Main Navigation */
 
 /*Main Header Styles Herer*/
