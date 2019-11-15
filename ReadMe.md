@@ -1,8 +1,10 @@
+<ul>
 
-ONPOINT - By Three Cheetahs.
+<li><strong>ONPOINT</strong> - By Three Cheetahs.</li>
 Project By: Jill Brines.
 Developer: Syed Naqi
 Project Details : WooCommerce/Wordpress Theme Development
+</ul>
 
 
 Items:
