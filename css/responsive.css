@@ -24,17 +24,27 @@
 /*  Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     .mobile-menu{
-        display: none;
+        display: block;
     }
     
      .main-navigation,.main-header{
-        display: block;
+        display: none;
     }
+    
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    
+    .mobile-menu{
+        display: none;
+    }
     .topbar-wrapper{
+        display: block;
+    }
+    
+    
+    .main-navigation,.main-header{
         display: block;
     }
     
