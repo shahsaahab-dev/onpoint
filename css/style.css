@@ -94,7 +94,7 @@ button.onpoint-btn-1:hover{
     transition:all .4s ease-in;
 }
 
-/*HomePage Styles Start Here*/
+/*General Styles Start Here*/
 /* Topbar Styles */
 .topbar-wrapper {
     background: #000;
@@ -330,4 +330,218 @@ footer{
     font-weight: 400;
     letter-spacing: 1px;
     text-align: right;
+}
+
+/*General Styles end Here*/
+
+/*Page Specific Styles Start Here*/
+
+/*Shop Page Styles Start Here*/
+
+.product-listing-wrapper {
+    margin: 50px 0px 30px 0px;
+}
+
+p.result {
+    text-transform: capitalize;
+    color: #4c4c4c;
+    font-size: 1em;
+}
+
+p.catalog button {
+    padding: 10px;
+    background: none;
+    border: none;
+    border: 2px solid #d9d9d9;
+}
+
+
+select#sort-dd {
+    height: 40px;
+    padding: 0px 10px;
+}
+/*Product Styles */
+
+.product-item {
+    margin-top: 20px;
+}
+.product-img {
+    background: #a0a0a0;
+    height: 380px;
+    margin-bottom: 30px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.product-content h5 {
+    font-family: PlayFair Display;
+    font-weight: 600;
+    text-indent: 0em;
+    font-size: 1em;
+}
+
+.atc-price-button {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 3px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+span.separator {
+    margin: 0px 15px;
+}
+
+.product-img {
+    position: relative;
+}
+
+ul.user-action {
+    position: absolute;
+    right: 0;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    bottom: 0;
+    margin-right: 4px;
+    margin-bottom: 3px;
+}
+
+ul.user-action li {
+    padding: 15px 20px;
+    background: #fff3;
+    margin: 2px 0px;
+}
+
+ul.user-action {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.product-img:hover ul.user-action {
+    visibility: visible;
+    opacity: 1;
+    transition: all .4s ease-in;
+}
+
+ul.user-action {
+    cursor: pointer;
+}
+
+ul.user-action li:hover {
+    background: #fff;
+    transition: all .3s ease-in;
+}
+
+
+/*Cart Page Styles*/
+
+.cart-wrapper {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+table.cart-onpoint {
+    width: 100%;
+    border: 1px solid #d9dd99;
+}
+
+thead {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+th {
+    padding: 10px 20px;
+}
+
+
+th {font-weight: 400;text-transform: uppercase;font-size: 1em; color:#202020;}
+
+ul.product-details-cart {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.product-details-cart li {
+    display: inline-block;
+}
+
+.product-image-cart-table {
+    height: 100px;
+    background: #a0a0a0;
+    width: 85px;
+}
+
+table.cart-onpoint td {
+    padding: 20px 5px;
+}
+
+td:first-child {
+    text-align: center;
+    font-size: 2em;
+}
+
+table.cart-onpoint td p {
+    margin: 0px!important;
+}
+
+table.cart-onpoint td {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-details-cart p,span {
+    position: relative;
+    top: -30px;
+}
+
+ul.product-details-cart li p {
+    font-family: Playfair Display;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+}
+
+ul.product-details-cart li span {
+    position: relative;
+    left: 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: #ababab;
+}
+
+table.cart-onpoint input[type="number"] {
+    width: 60px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+table.cart-onpoint th {
+    padding-left: 0px;
+}
+
+.cart-buttons {
+    text-align: right;
+}
+
+.cart-buttons button {
+    background: none;
+    border: 1px solid #d9d9d9;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: #808080;
+    transition: all .4s ease-in;
+}
+
+.cart-buttons button:hover {
+    background: #000;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
+.cart-buttons button i.fa {
+    margin-right: 10px;
 }
