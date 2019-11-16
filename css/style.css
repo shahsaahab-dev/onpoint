@@ -435,7 +435,10 @@ ul.user-action li:hover {
     transition: all .3s ease-in;
 }
 
-
+.atc-price-button span {
+    position: relative;
+    top: 0px;
+}
 /*Cart Page Styles*/
 
 .cart-wrapper {
