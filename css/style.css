@@ -334,6 +334,11 @@ footer{
 
 /*General Styles end Here*/
 
+
+/* Spacing styles  */
+.wrapper{
+    margin-top: 100px!important;
+}
 /*Page Specific Styles Start Here*/
 
 /*Shop Page Styles Start Here*/
