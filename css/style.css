@@ -218,7 +218,9 @@ button.onpoint-btn-1:hover{
     top: 0;
     overflow: hidden;
     transform: scaleY(0);
+	transform-origin:top;
     box-shadow: 2px 2px #ff760026;
+	transition: all .4s ease-in;
 }
 
 .menu-mobile ul {
@@ -234,6 +236,7 @@ button.onpoint-btn-1:hover{
 
 .open-menu{
     transform:scaleY(1);
+	transition: all .4s ease-in;
 }
 
 .menu-mobile.open-menu ul li a {
