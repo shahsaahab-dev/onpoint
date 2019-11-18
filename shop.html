@@ -107,8 +107,14 @@
                </div>
                <div class="col text-right">
                    <p class="catalog">
-                   <button><a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa fa-list"></i></a></button>
-                   <button><a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa fa-th"></i></a></button>
+                   <ul class="nav nav-tabs" id="myTab" role="tablist">
+					  <li class="nav-item">
+						<a class="nav-link active" id="grid-tab" data-toggle="tab" href="#grid" role="tab" aria-controls="grid" aria-selected="true"><i class="fa fa-th"></i></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" id="list-tab" data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false"><i class="fa fa-list"></i></a>
+					  </li>
+					</ul>
                    <select name="sorting" id="sort-dd">
                        <option value="0">Default Sorting</option>
                        <option value="1">Lowest to Highest</option>
@@ -119,7 +125,10 @@
                    </p>
                </div>
            </div>
-           <div class="product-listing">
+		   <!-- Product Tabs -->
+		   <div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+			   <div class="product-grid">
                <div class="row">
                   <!-- Product Item Starts Here -->
                        <div class="col-lg-4 col-md-6 col-sm-12">
@@ -254,7 +263,227 @@
                    <!-- Product Item Ends Here -->
                </div>
            </div>
-       </div>
+			</div>
+			  <div class="tab-pane fade" id="list" role="tabpanel" aria-labelledby="list-tab">
+				<div class="product-list">
+					<div class="row">
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+						<!-- Product Listing Starts Here -->
+						<div class="col-lg-12">
+							<div class="product-item list">
+							<div class="row">
+							<div class="col-lg-4">
+							<div class="product-img">
+                               <ul class="user-action">
+                                   <li><i class="fa fa-search"></i></li>
+                                   <li><i class="fa fa-heart-o"></i></li>
+                                   <li><i class="fa fa-shopping-cart"></i></li>
+                               </ul>
+                           </div>
+							</div>
+							<div class="col-lg-8">
+							<div class="product-content">
+                               <h5>Striped Men Shirt</h5>
+							   <p>
+							   There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+							   </p>
+                           </div>
+                           <div class="atc-price-button">
+                               <span class="atc">Add to Cart</span>
+                               <span class="separator">|</span>
+                               <span class="price">PRICE</span>
+                           </div>
+							</div>
+							</div>
+                       </div>
+						</div>
+						<!-- End Product Listing -->
+					</div>
+				</div>
+			  </div>
+		   </div>
+			  
+		   </div>
+		   <!-- End Product Tabs -->
    </div>
    <!-- ENd Shop Wrapper -->
    
