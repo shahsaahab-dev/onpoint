@@ -280,6 +280,8 @@ button.onpoint-btn-1:hover{
 
 
 /*Footer Styles */
+
+
 .footer-head {
     text-align: center;
 }
@@ -368,6 +370,28 @@ select#sort-dd {
     height: 40px;
     padding: 0px 10px;
 }
+
+.nav-tabs {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#myTab {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+ul#myTab li {
+    display: inline-block;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background: #000;
+    color: #fff;
+}
+
 /*Product Styles */
 
 .product-item {
@@ -447,6 +471,26 @@ ul.user-action li:hover {
     position: relative;
     top: 0px;
 }
+
+
+/* Product Listing Styles */
+.product-content p {
+    font-size: 1em;
+    color: #a0a0a0;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.list .product-img {height: 220px;}
+
+.list {
+    border: 1px solid #d9d9d9;
+    padding: 35px;
+}
+
+
+
+
 /*Cart Page Styles*/
 
 .cart-wrapper {

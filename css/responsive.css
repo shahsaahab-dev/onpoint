@@ -26,6 +26,16 @@
     .product-details-cart p, span{
         top:0!important;
     }
+	
+	/* Footer Styles */
+	.footer-head{
+		display:none;
+	}
+	
+	
+	
+	
+	
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {}
@@ -47,6 +57,16 @@
     .product-details-cart p, .product-details-cart span{
         top:-20px!important;
     }
+	
+	.menu-mobile{
+		display:none;
+	}
+	
+	
+	/* Footer Styles */
+	.footer-head{
+		display:block;
+	}
     
 }
 
