@@ -813,6 +813,26 @@ li.nav-item {
     font-size: 1em;
 }
 /* End Product Details Page */
+
+
+/* Checkout Page */
+.billing-details-wrapper {
+    margin-top: 50px;
+}
+
+.billing-details-wrapper input {
+    width: 100%;
+}
+
+.billing-details-wrapper .inline input {
+    width: 50%;
+}
+
+.billing-details-wrapper select {
+    width: 100%;
+    min-height: 40px;
+}
+/* End Checkout Page */
 /* =========================================== Blog FUll Width */
 .ad-space-banner {
     text-align: center;
@@ -859,11 +879,15 @@ li.nav-item {
 
 
 /* Blog Listing Items */
+.blog-listing-items {
+    margin-top: 65px;
+}
 .blog-listing-item {
     background: #d6d6d6;
-    width: 65%;
+    width: 80%;
     margin-left: auto;
     padding: 75px;
+    min-height: 450px;
 }
 
 .blog-listing-content h4 {
@@ -879,8 +903,65 @@ li.nav-item {
     font-weight: 300;
 }
 
-.blog-listing-content h4::before {content: "";width: 100px;height: 5px;background: #000;position: absolute;left: -15%;top: 10%;}
+.blog-listing-content h4::before {content: "";width: 100px;height: 5px;background: #000;position: absolute;left: -22%;top: 9%;}
 
 .blog-listing-content {
     position: relative;
+}
+
+.blog-img {
+    background: #fff;
+    height: 300px;
+    width: 450px;
+    position: absolute;
+    right: 62%;
+    top: 32%;
+    box-shadow: 5px 5px 10px #22222263;
+}
+
+button.underlined {
+    position: absolute;
+    right: 0;
+    margin-top: 90px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 0px 20px 5px 0px;
+    text-transform: uppercase;
+}
+
+button.underlined a {
+    text-decoration: none;
+    color: #000;
+}
+
+.meta-info {
+    display: inline-flex;
+}
+.blog-listing-item {
+    margin-top: 39px;
+}
+
+ul.social-icons {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    margin-right: -35px;
+}
+
+ul.social-icons li {
+    margin: 20px 0px;
+    font-size: 1.2em;
+}
+
+ul.social-icons li:last-child {
+    margin: 0px;
+}
+
+ul.social-icons li a {
+    color: #000;
+    text-decoration: none;
 }
