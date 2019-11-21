@@ -965,3 +965,82 @@ ul.social-icons li a {
     color: #000;
     text-decoration: none;
 }
+
+
+
+/* Blog Single Details */
+.mail-chimp-box {
+    background: #e9e3d8;
+    padding: 50px;
+    text-align: center;
+}
+
+.mail-chimp-box h3 {
+    font-family: Playfair Display;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.mail-chimp-box input {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    min-height: 40px;
+    padding:15px 20px;
+}
+
+.mail-chimp-box button {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 30px;
+    letter-spacing: 3px;
+}
+
+h3.single-item-blog-title {
+    font-size: 5em;
+    text-align: center;
+    font-family: PlayFair Display;
+}
+
+.meta-info-single {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blog-single-img {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    min-height: 550px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.single-blog-wrapper p {
+    line-height: 1.8em;
+}
+
+.share-box ul.social-icons {
+    position: relative;
+}
+
+.share-box ul.social-icons li {
+    display: inline-block;
+    padding: 0px 40px;
+    text-align: center;
+}
+
+.blog-share-box-img {
+    background: #e6e6e6;
+    height: 220px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.share-box p {
+    text-align: center;
+    padding: 20px;
+}
