@@ -32,7 +32,13 @@
 		display:none;
 	}
 	
-	
+	.product-details-content h4 {
+        margin-top: 40px;
+    }
+    
+    li.nav-item {
+        width: 100%;
+    }
 	
 	
 	
@@ -66,7 +72,16 @@
 	/* Footer Styles */
 	.footer-head{
 		display:block;
-	}
+    }
+    
+
+    .product-details-content h4 {
+        margin-top: 0px;
+    }
+    
+    li.nav-item {
+        width: unset;
+    }
     
 }
 
